@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container nav-bar flex">
+            <div class="flex">
+                <div></div><h2>Dojonary</h2>
+                <input type="text" placeholder="Search.."></div>
+                <div><button class="btn" onclick="logOut(this)">Login</button></div>
+            </div>
+        </div>
+    </header>
+    <div class="container flex">
+        <div class="nav-left">
+            <div class="card c-flex">
+                <div class="card-left">
+                    <h2>ninja</h2>
+                    <h4>noun</h4>
+                    <h5>Plural: <span class="needsItalics">ninjas</span></h5>
+                    <button class="c-button" onclick="alert('Ninja was liked')">13 likes</button>
+                </div>
+                <div class="card-right">A practitioner skilled in the <a href="">Japanese</a> art of <a href="">ninjutsu</a></div>
+            </div>
+            <div class="card c-flex">
+                <div class="card-left">
+                    <h2>ninja</h2>
+                    <h4>noun</h4>
+                    <h5>Plural: <span class="needsItalics">ninjas</span></h5>
+                    <button class="c-button" onclick="alert('Ninja was liked')">37 likes</button>
+                </div>
+                <div class="card-right">A <a href="">programmer</a> who breaks down problems with <a href="">zen</a>-like focus</div>
+            </div>
+        </div>
+        <div class="nav-right">
+            <div class="card">
+                <div class="card-header">Dojonary is defined by YOU</div>
+                <div class="card-body"><button class="def-button" onclick="hide(this)">Add Definition</button></div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container flex">
+            <div class="nav-menu flex">
+                <h2>Profile</h2> 
+                <ul class="flex">
+                    <li class="subtleLink">Home</li>
+                    <li>My Profile</li>
+                    <li class="subtleLink">Find Connection</li> 
+                </ul> 
+            </div>
+            <button class="btn">Sign Out</button>          
+        </div>
+    </header>
+    <div class="container flex">
+        <div class="nav-left">
+            <div class="card">
+                <div class="profile-header"><img id="avatar" src="./images/jane-m.jpg"></div>
+                <div class="profile-body">                
+                    <ul>
+                        <li><h3>Jane Doe</h3></li>
+                        <li class="location"><img id="mapMarker" src="./images/map-marker.png" alt="mapMarker">  Seattle</li>
+                        <li>Developer | Engineer | Problem Solver</li>
+                        <li>Master of shadows and the Internet!</li>
+                        <li class="location"><img id="gear" src="./images/gear.png"> <a href="" alt="gear"> edit profile</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    Education
+                </div>
+                <div class="card-body">
+                    <ul>
+                        <li>Coding Dojo - Full Stack Bootcamp</li>
+                        <li>Dec 2019 - Mar 2020</li>
+                        <li>Triple black belt in Python, MERN and C#</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class=""nav-right>
+            <div class="card">
+                <div class="card-header flex">
+                    <div>Connection Requests</div>
+                </div>
+                <div class="card-body">
+                    <ul>
+                        <li class="con-flex"><div><img class="linkAvatar" src="./images/todd-s.jpg">Todd E </div>
+                            <div><img class="conReq" src="./images/accept-circle.png"><img class="conReq" src="./images/close-circle.png"></div></li>
+                        <li class="con-flex"><div><img class="linkAvatar" src="./images/phil-s.jpg">Phil K </div>
+                            <div><img class="conReq" src="./images/accept-circle.png"><img class="conReq" src="./images/close-circle.png"></div></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header flex">
+                    <div>Your Connections</div>
+                </div>
+                <div class="card-body">
+                    <ul>
+                        <li><img class="linkAvatar" src="./images/adrien-s.jpg">Adrien D</li>
+                        <li><img class="linkAvatar" src="./images/anne-s.jpg">Anne J</li>
+                        <li><img class="linkAvatar" src="./images/alayne-s.jpg">Alayne T</li>
+                        <li><img class="linkAvatar" src="./images/arry-s.jpg">Arry Y</li>
+                    </ul>
+                </div>
+                <div class="card-body"><a href=""> View More</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

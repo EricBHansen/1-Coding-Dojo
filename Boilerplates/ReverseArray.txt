@@ -1,0 +1,16 @@
+let array1 = [1,2,3,4,5]; 
+function reverseArray(array) {
+    let hold = 0; 
+    let i = array.length - 1; 
+    let j = 0; 
+    while (i > j) {
+        hold = array[i];
+        array[i] = array[j];
+        array[j] = hold; 
+        i--;
+        j++;
+    }
+    return array
+}
+
+console.log(reverseArray(array1))

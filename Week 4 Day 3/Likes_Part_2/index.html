@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container nav-bar">Network</div>
+    </header>
+    <p class="container your-feed">Your Feed</p>
+    <div class="container flex">
+        <aside>
+            <div><img src="./images/user-circle.png" alt="user image"></div>
+            <div><a href="#">Add an avatar</a></div>
+            <div>James Doe</div>
+        </aside>
+        <main>
+            <div class="card">
+                <div class="card-header card-flex">
+                    <div>Neil M</div>
+                    <div><span id="neil-likes">9</span> like(s) <button onclick="increaseNeilLikes()">Like</button></div>
+                </div>
+                <div class="card-body">I just set up this new discord bot, let me know what you all think <a href="#">link</a></div>
+            </div>
+            <div class="card">
+                <div class="card-header card-flex">
+                    <div>Nichole K</div>
+                    <div><span id="nichole-lies">12</span> like(s) <button onclick="increaseNicholeLikes()">Like</button></div>
+                </div>
+                <div class="card-body ">Just finished my <a href="#">next comic</a>, check it out.</div>
+            </div>
+            <div class="card">
+                <div class="card-header card-flex">
+                    <div>Jim R</div>
+                    <div><span id="jim-likes">9</span> like(s) <button onclick="increaseJimLikes()">Like</button></div>
+                </div>
+                <div class="card-body">I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+
+
+.container {
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 2px;
+    background-color: white;
+    margin: 15%;
+    height: 230px;
+}
+
+h3 {
+    margin-top: 25px;
+}
+
+.info {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 2px;
+    margin-left: 10px;
+}
+
+.top-nav {
+    height: 60px;
+    background-color: #17a2b8;
+}
+
+.editLine {
+    padding: 2px;
+    margin: 2px;
+    margin-left: 10px;
+}
+
+#gear {
+    height: 15px;
+}
+
+#map {
+    height: 15px;
+}
+
+#avatar {
+    height: 50px;
+    margin: 13px;
+    margin-top: 31px;
+    border-style: double;
+    border-radius: 50%;
+    border-color: gray;
+}
